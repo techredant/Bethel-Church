@@ -107,14 +107,14 @@ const HeroSection = () => {
       {/* Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-6 z-20 p-3 rounded-full bg-secondary/40 text-cream"
+        className="absolute left-3 z-20 p-3 rounded-full bg-secondary/40 text-cream"
       >
         <ChevronLeft />
       </button>
 
       <button
         onClick={nextSlide}
-        className="absolute right-6 z-20 p-3 rounded-full bg-secondary/40 text-cream"
+        className="absolute right-3 z-20 p-3 rounded-full bg-secondary/40 text-cream"
       >
         <ChevronRight />
       </button>
