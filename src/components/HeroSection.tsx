@@ -25,8 +25,8 @@ const slides = [
   {
     image: heroChurch,
     title: "Welcome to",
-    highlight: "Bethel Deliverance",
-    subtitle: "Church",
+    highlight: "Bethel Church",
+    subtitle: "",
     description: "A place of hope, healing, and spiritual transformation.",
   },
   {
@@ -160,14 +160,7 @@ const HeroSection = () => {
               ))}
             </div>
 
-            {/* Triangle image */}
-            {/* <div className="w-72 sm:w-96 h-48 overflow-hidden">
-              <img
-                src={heroCommunity}
-                alt="Community"
-                className="w-full h-full object-cover  shadow-2xl"
-              />
-            </div> */}
+           
           </div>
 
           {/* Buttons */}
